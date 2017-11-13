@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         for(String toy: toyNames){
             mToyListTextView.append(toy+"\n\n\n");
         }
+
         // COMPLETED (3) Use findViewById to get a reference to the TextView from the layout
 
         // COMPLETED (4) Use the static ToyBox.getToyNames method and store the names in a String array
